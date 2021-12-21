@@ -40,6 +40,8 @@ def print_upper_by_letters(words_list, must_start_with):
             YO
             YES
     """
+
+    #nested loops to run through each word and test it against each letter
     for word in words_list:
         for letter in must_start_with:
             if word.startswith(letter):
